@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import UserService from '../services/UserService'
+import '../Header.css'
 
 class HeaderComponent extends Component {
     constructor(props) {
@@ -18,7 +19,7 @@ class HeaderComponent extends Component {
                 <header>
                     <nav className="navbar navbar-expand-md navbar-dark bg-dark">
                     <div><a href="/" className="navbar-brand">Students Management App</a></div>
-                    <Link to="/"onClick={this.logout}>Se déconnecter</Link>
+                    <div className="bouton-link"><Link to="/"onClick={this.logout}>Se déconnecter</Link></div>
                     </nav>
                 </header>
             </div>

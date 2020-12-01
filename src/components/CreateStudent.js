@@ -61,7 +61,7 @@ export default class CreateStudent extends Component {
             filiere: this.state.filiere
         }
         StudentService.createStudent(eleve).then((res)=>{
-            this.props.history.push('/');
+            this.props.history.push('/all-student');
         })
     }
     render() {

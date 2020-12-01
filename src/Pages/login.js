@@ -3,7 +3,7 @@ import { Link, Redirect } from 'react-router-dom';
 import {useAuth} from '../Context/auth'
 import UserService from '../services/UserService'
 
-function Login(props) {
+function Login() {
 
     const [isLoggedIn, setLoggedIn] = useState(false);
     const [isError, setIsError] = useState(false);
@@ -11,8 +11,7 @@ function Login(props) {
     const [password, setPassword] = useState("");
     const { setAuthTokens } = useAuth();
 
-    const referer = props.location.state.referer || '/';
-
+    
     function postLogin(e){
       e.preventDefault();
       let user= {
@@ -33,7 +32,7 @@ function Login(props) {
       }
     
       if (isLoggedIn) {
-        return <Redirect to={referer} />;
+        return <Redirect to="/all-student" />;
       }
 
     return (
