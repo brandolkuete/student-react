@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/student-react/static/css/main.cc6d6b7d.chunk.css",
-    "main.js": "/student-react/static/js/main.317fcd2a.chunk.js",
-    "main.js.map": "/student-react/static/js/main.317fcd2a.chunk.js.map",
+    "main.js": "/student-react/static/js/main.53e2b32d.chunk.js",
+    "main.js.map": "/student-react/static/js/main.53e2b32d.chunk.js.map",
     "runtime-main.js": "/student-react/static/js/runtime-main.ab23637f.js",
     "runtime-main.js.map": "/student-react/static/js/runtime-main.ab23637f.js.map",
     "static/css/2.2a86faee.chunk.css": "/student-react/static/css/2.2a86faee.chunk.css",
     "static/js/2.f480d01f.chunk.js": "/student-react/static/js/2.f480d01f.chunk.js",
     "static/js/2.f480d01f.chunk.js.map": "/student-react/static/js/2.f480d01f.chunk.js.map",
     "index.html": "/student-react/index.html",
-    "precache-manifest.ec01986b037ea74dbd41ab91a196a477.js": "/student-react/precache-manifest.ec01986b037ea74dbd41ab91a196a477.js",
+    "precache-manifest.313be34927663f5cca831f6384ab6fc1.js": "/student-react/precache-manifest.313be34927663f5cca831f6384ab6fc1.js",
     "service-worker.js": "/student-react/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/student-react/static/css/2.2a86faee.chunk.css.map",
     "static/css/main.cc6d6b7d.chunk.css.map": "/student-react/static/css/main.cc6d6b7d.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.2a86faee.chunk.css",
     "static/js/2.f480d01f.chunk.js",
     "static/css/main.cc6d6b7d.chunk.css",
-    "static/js/main.317fcd2a.chunk.js"
+    "static/js/main.53e2b32d.chunk.js"
   ]
 }
